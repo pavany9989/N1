@@ -24,7 +24,8 @@ public class SeleniumHQ {
 	}	
 	@BeforeTest
 	public void beforeTest() {	
-		
+		System.setProperty("webdriver.chrome.driver",
+	            "src/main/resources/drivers/chromedriver.exe");
 		
 	    driver = new ChromeDriver();  
 	}		
