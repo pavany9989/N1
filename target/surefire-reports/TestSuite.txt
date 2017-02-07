@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 19.407 sec <<< FAILURE!
+testEasy(MAX.SeleniumHQ)  Time elapsed: 0.888 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:24)
+	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+	at MAX.SeleniumHQ.testEasy(SeleniumHQ.java:23)
+valid_UserCredential(MAX.SeleniumHQJUNIT)  Time elapsed: 9.95 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at MAX.SeleniumHQJUNIT.valid_UserCredential(SeleniumHQJUNIT.java:37)
