@@ -37,12 +37,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0">
 		<attributes>
 			<attribute name="owner.project.facets" value="jst.web"/>
@@ -99,5 +93,12 @@
 	<classpathentry kind="lib" path="C:/Users/pyalamanchili/Downloads/lib/selenium-java-3.0.1/lib/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/pyalamanchili/Downloads/lib/selenium-java-3.0.1/lib/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/pyalamanchili/Downloads/lib/selenium-java-3.0.1/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pyalamanchili/Downloads/commons-logging-1.1.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
