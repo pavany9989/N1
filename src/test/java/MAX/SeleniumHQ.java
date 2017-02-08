@@ -31,6 +31,7 @@ public class SeleniumHQ {
 	}		
 	@AfterTest
 	public void afterTest() {
-		driver.quit();			
+		driver.quit();		
+		
 	}		
 }	
